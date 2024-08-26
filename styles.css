@@ -14,7 +14,7 @@ body {
 
 .container-main {
   width: 70%;
-  height: 80dvh;
+  height: 68dvh;
   background: rgb(218, 226, 233);
 }
 
@@ -23,7 +23,7 @@ body {
   height: 100%;
   display: grid;
   grid-template-columns: 23% auto;
-  gap: 10px;
+  gap: 25px;
 }
 
 .header-cards {
@@ -54,13 +54,19 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  column-gap: 20px;
-  row-gap: 70px;
+  gap: 30px;
 }
 
 .card {
   border: 1px solid black;
-  height: 80%;
+  height: 100%;
+}
+
+.card-1 {
+  background: #ff8b64;
+  background-image: url("./images/icon-work.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 /*-------------------------Responsive < 1024px-----------------------*/
