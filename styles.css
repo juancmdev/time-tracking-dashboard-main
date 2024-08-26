@@ -13,7 +13,7 @@ body {
 }
 
 .container-main {
-  width: 60%;
+  width: 70%;
   height: 80dvh;
   background: rgb(218, 226, 233);
 }
@@ -22,7 +22,7 @@ body {
   width: 100%;
   height: 100%;
   display: grid;
-  grid-template-columns: 30% auto;
+  grid-template-columns: 23% auto;
   gap: 10px;
 }
 
@@ -47,6 +47,20 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 20px;
+}
+
+.container-cards {
+  background: blue;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 20px;
+  row-gap: 70px;
+}
+
+.card {
+  border: 1px solid black;
+  height: 80%;
 }
 
 /*-------------------------Responsive < 1024px-----------------------*/
