@@ -135,7 +135,14 @@ body {
     width: 95%;
     height: 75dvh;
   }
-}
+
+  .cards {
+    display: flex;
+  }
+
+  .header-cards {
+    height: auto;
+  }
 /*-----------------------------------------------------------------*/
 .attribution {
   display: none;
