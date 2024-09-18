@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+.container-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cards {
+  display: flex;
+}
+
 .header-cards {
   border: 5px solid black;
 }
@@ -12,9 +23,15 @@
   border: 5px solid rgb(189, 6, 6);
 }
 
+.container-cards{
+  border: 10px solid orange;
+}
+
 .card {
   border: 1px solid yellowgreen;
 }
+
+
 
 /*-------------------------Responsive < 768px-----------------------*/
 @media (width < 768px) {
