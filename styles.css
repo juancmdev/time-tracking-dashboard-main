@@ -138,7 +138,7 @@ body {
 /*-------------------------Responsive < 768px-----------------------*/
 @media (width < 768px) {
   .container-main {
-    width: 95%;
+    width: 100%;
     height: 100dvh;
   }
 
@@ -146,12 +146,13 @@ body {
     display: flex;
     flex-direction: column;
     height: 100dvh;
+    max-width: 100%;
   }
 
   .header-back-card {
     background: #1c204b;
-    width: 100%;
-    height: 150px;
+    max-width: 100%;
+    height: 100%;
     border-radius: 20px;
     margin-bottom: 30px;
   }
@@ -161,10 +162,14 @@ body {
   }
 
   .container-cards {
-    width: 100%;
+    max-width: 100%;
     height: 100dvh;
     display: flex;
     flex-direction: column;
+  }
+
+  .card {
+    height: 200px;
   }
   /*-----------------------------------------------------------------*/
   .attribution {
