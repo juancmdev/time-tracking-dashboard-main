@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100dvh;
 }
 
 .cards {
@@ -38,9 +38,18 @@
   .header-cards {
     margin: 50px 20px 0 20px;
   }
+
+  .container-main {
+    display: block;
+  }
   .card {
     margin: 20px;
   }
+
+  .cards {
+    display: block;
+  }
+  
 
   .card-6 {
     margin-bottom: 50px;
