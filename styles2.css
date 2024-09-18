@@ -9,9 +9,23 @@
 }
 
 .header-back-card {
-  border: 5px solid black;
+  border: 5px solid rgb(189, 6, 6);
+}
+
+.card {
+  border: 1px solid yellowgreen;
 }
 
 /*-------------------------Responsive < 768px-----------------------*/
 @media (width < 768px) {
+  .header-cards {
+    margin: 50px 20px 0 20px;
+  }
+  .card {
+    margin: 20px;
+  }
+
+  .card-6 {
+    margin-bottom: 50px;
+  }
 }
