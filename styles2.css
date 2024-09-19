@@ -26,6 +26,10 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
+.caja2 > div {
+  background-color: rgb(42, 165, 69);
+}
 /*-------------------------Responsive < 768px-----------------------*/
 @media (width < 768px) {
   .container {
