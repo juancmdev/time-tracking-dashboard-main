@@ -23,6 +23,8 @@
   width: 30%;
   height: 60%;
   border: 1px solid green;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 /*-------------------------Responsive < 768px-----------------------*/
 @media (width < 768px) {
@@ -37,6 +39,7 @@
 
   .caja2 {
     width: 100%;
+    display: block;
     flex-grow: 1;
   }
 }
