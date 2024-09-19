@@ -8,11 +8,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100dvh;
+  min-height: 100vh;
+  width: 100dvw;
+  background: aqua;
 }
 
 .cards {
-  display: flex;
+  display: grid;
+  width: 60dvw;
+  height: 100dvh;
 }
 
 .header-cards {
@@ -23,15 +27,13 @@
   border: 5px solid rgb(189, 6, 6);
 }
 
-.container-cards{
+.container-cards {
   border: 10px solid orange;
 }
 
 .card {
   border: 1px solid yellowgreen;
 }
-
-
 
 /*-------------------------Responsive < 768px-----------------------*/
 @media (width < 768px) {
@@ -49,7 +51,6 @@
   .cards {
     display: block;
   }
-  
 
   .card-6 {
     margin-bottom: 50px;
