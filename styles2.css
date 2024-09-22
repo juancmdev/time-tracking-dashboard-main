@@ -154,6 +154,14 @@ body {
     }
   }
 
+  .texto-atras {
+    width: 100%;
+    top: 80%;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
   .caja2 {
     width: 100%;
     display: block;
