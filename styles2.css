@@ -19,10 +19,13 @@
   --Pale-Blue: hsl(236, 100%, 87%);
 }
 
-* {
+*,
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  color: var(--Pale-Blue);
 }
 
 body {
