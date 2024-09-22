@@ -25,6 +25,12 @@ body {
   position: relative;
 }
 
+.frente > img {
+  width: 30%;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
 .caja2 {
   width: 75%;
   height: 60%;
