@@ -83,7 +83,6 @@ body {
 }
 
 .caja2 > div {
-  background-color: rgb(42, 165, 69);
   border-radius: 20px;
 }
 
@@ -117,6 +116,49 @@ body {
   width: 100%;
   height: 70%;
   border-radius: 15px;
+}
+
+/*-------------------------Caja 2 -----------------------------------*/
+.contenido-1 {
+  background: #ff8b64;
+  background-image: url("./images/icon-work.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.contenido-2 {
+  background: #55c2e6;
+  background-image: url("./images/icon-play.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.contenido-3 {
+  background: #ff5e7d;
+  background-image: url("./images/icon-study.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.contenido-4 {
+  background: #4bcf82;
+  background-image: url("./images/icon-exercise.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.contenido-5 {
+  background: #7335d2;
+  background-image: url("./images/icon-social.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+.contenido-6 {
+  background: #f1c75b;
+  background-image: url("./images/icon-self-care.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 /*-------------------------Responsive < 768px-----------------------*/
