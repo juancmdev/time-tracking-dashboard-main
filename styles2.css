@@ -97,6 +97,18 @@ body {
   border-radius: 15px;
 }
 
+.texto-atras {
+  position: absolute;
+  top: 75%;
+  left: 30px;
+  color: white;
+
+  & p {
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+}
+
 .frente {
   position: absolute;
   top: 0;
@@ -120,8 +132,26 @@ body {
     flex-grow: 1;
   }
 
+  .frente {
+    display: grid;
+    grid-template-columns: 15% auto;
+    place-content: center;
+    margin-top: 0px;
+  }
+
   .frente > img {
     width: 70px;
+    margin: 0;
+  }
+
+  .frente {
+    & p {
+      font-size: 1rem;
+      margin-top: 0;
+    }
+    & h1 {
+      font-size: 2rem;
+    }
   }
 
   .caja2 {
