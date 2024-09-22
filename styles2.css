@@ -43,23 +43,41 @@ body {
 }
 
 .caja1 {
-  width: 25%;
-  height: 60%;
+  width: 22%;
+  height: 55%;
   border: 1px solid black;
   position: relative;
 }
 
 .frente > img {
-  width: 30%;
+  width: 40%;
   margin-top: 30px;
   margin-left: 30px;
-  border: 3px solid var(--Pale-Blue);
+  border: 3px solid white;
   border-radius: 50%;
 }
 
+.frente {
+  & h1,
+  p {
+    color: whitesmoke;
+    margin-left: 30px;
+  }
+
+  & h1 {
+    font-weight: 300;
+  }
+
+  & p {
+    margin-top: 40px;
+    color: var(--Pale-Blue);
+    font-weight: 400;
+  }
+}
+
 .caja2 {
-  width: 75%;
-  height: 60%;
+  width: 78%;
+  height: 55%;
   border: 1px solid green;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
